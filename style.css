@@ -1,0 +1,67 @@
+body {
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 80%;
+    height: 300px;
+    width: 250px;
+}
+
+#hi {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#aaff00 0%, #00ffff 100%);
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#name {
+    font-size: 40px;
+    text-decoration-color: aqua;
+}
+
+.parallax-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.menu {
+    z-index: 10;
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor:pointer;
+}
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: #ffff00;
+}
